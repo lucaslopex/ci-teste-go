@@ -2,6 +2,7 @@ version: '3'
 services:
   postgres:
     image: "postgres"
+    container_name: db
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
