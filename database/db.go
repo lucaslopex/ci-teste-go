@@ -2,7 +2,7 @@ package database
 
 import (
 	"log"
-	"os"
+//	"os"
 	"github.com/guilhermeonrails/api-go-gin/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -22,4 +22,4 @@ func ConectaComBancoDeDados() {
 	}
 
 	DB.AutoMigrate(&models.Aluno{})
-}
+	}
